@@ -7,20 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001A0BB4278C341B0053A171 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BB3278C341B0053A171 /* AppTheme.swift */; };
+		001A0BB8278C39340053A171 /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BB7278C39340053A171 /* AppAssets.swift */; };
+		001A0BBB278C3E7D0053A171 /* SFUIDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BBA278C3E7D0053A171 /* SFUIDisplay.swift */; };
+		001A0BC6278C43250053A171 /* BannersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BC5278C43250053A171 /* BannersCollectionViewCell.swift */; };
+		001A0BC8278C53520053A171 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BC7278C53520053A171 /* MenuModel.swift */; };
+		001A0BCA278C53E60053A171 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BC9278C53E60053A171 /* TabBarController.swift */; };
+		001A0BCD278C66980053A171 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0BCC278C66980053A171 /* CategoryCollectionViewCell.swift */; };
+		00468D9D278EF4E0009F1303 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00468D9C278EF4E0009F1303 /* FoodTableViewCell.swift */; };
 		0084505C277508800078DC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084505B277508800078DC7E /* AppDelegate.swift */; };
-		0084505E277508800078DC7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084505D277508800078DC7E /* SceneDelegate.swift */; };
-		00845060277508800078DC7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084505F277508800078DC7E /* ViewController.swift */; };
-		00845063277508800078DC7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00845061277508800078DC7E /* Main.storyboard */; };
+		00845060277508800078DC7E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084505F277508800078DC7E /* MenuViewController.swift */; };
 		00845065277508810078DC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00845064277508810078DC7E /* Assets.xcassets */; };
 		00845068277508810078DC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00845066277508810078DC7E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00845058277508800078DC7E /* vibrateapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibrateapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001A0BB3278C341B0053A171 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		001A0BB7278C39340053A171 /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
+		001A0BBA278C3E7D0053A171 /* SFUIDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUIDisplay.swift; sourceTree = "<group>"; };
+		001A0BBC278C407B0053A171 /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
+		001A0BBD278C407B0053A171 /* SFUIDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		001A0BBE278C407B0053A171 /* SFUIDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.otf"; sourceTree = "<group>"; };
+		001A0BBF278C407B0053A171 /* SFUIDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.otf"; sourceTree = "<group>"; };
+		001A0BC0278C407B0053A171 /* SFUIDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		001A0BC1278C407B0053A171 /* SFUIDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Thin.otf"; sourceTree = "<group>"; };
+		001A0BC2278C407B0053A171 /* SFUIDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		001A0BC5278C43250053A171 /* BannersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersCollectionViewCell.swift; sourceTree = "<group>"; };
+		001A0BC7278C53520053A171 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		001A0BC9278C53E60053A171 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		001A0BCC278C66980053A171 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		00468D9C278EF4E0009F1303 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		00845058277508800078DC7E /* foodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0084505B277508800078DC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0084505D277508800078DC7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0084505F277508800078DC7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00845062277508800078DC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0084505F277508800078DC7E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		00845064277508810078DC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00845067277508810078DC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00845069277508810078DC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,10 +56,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001A0BB1278C340A0053A171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BB9278C3E1E0053A171 /* Fonts */,
+				001A0BB2278C34130053A171 /* Style */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		001A0BB2278C34130053A171 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BB3278C341B0053A171 /* AppTheme.swift */,
+				001A0BB7278C39340053A171 /* AppAssets.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		001A0BB9278C3E1E0053A171 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BBA278C3E7D0053A171 /* SFUIDisplay.swift */,
+				001A0BBF278C407B0053A171 /* SFUIDisplay-Bold.otf */,
+				001A0BC0278C407B0053A171 /* SFUIDisplay-Heavy.otf */,
+				001A0BBE278C407B0053A171 /* SFUIDisplay-Light.otf */,
+				001A0BBC278C407B0053A171 /* SFUIDisplay-Medium.otf */,
+				001A0BC2278C407B0053A171 /* SFUIDisplay-Semibold.otf */,
+				001A0BC1278C407B0053A171 /* SFUIDisplay-Thin.otf */,
+				001A0BBD278C407B0053A171 /* SFUIDisplay-Ultralight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		001A0BC3278C42100053A171 /* MenuPage */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BC4278C42210053A171 /* Cells */,
+				0084505F277508800078DC7E /* MenuViewController.swift */,
+				001A0BC7278C53520053A171 /* MenuModel.swift */,
+			);
+			path = MenuPage;
+			sourceTree = "<group>";
+		};
+		001A0BC4278C42210053A171 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BC5278C43250053A171 /* BannersCollectionViewCell.swift */,
+				001A0BCC278C66980053A171 /* CategoryCollectionViewCell.swift */,
+				00468D9C278EF4E0009F1303 /* FoodTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		001A0BCB278C53EA0053A171 /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				001A0BC9278C53E60053A171 /* TabBarController.swift */,
+			);
+			path = BottomBar;
+			sourceTree = "<group>";
+		};
 		0084504F277508800078DC7E = {
 			isa = PBXGroup;
 			children = (
-				0084505A277508800078DC7E /* vibrateapp */,
+				0084505A277508800078DC7E /* foodDelivery */,
 				00845059277508800078DC7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +128,31 @@
 		00845059277508800078DC7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00845058277508800078DC7E /* vibrateapp.app */,
+				00845058277508800078DC7E /* foodDelivery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0084505A277508800078DC7E /* vibrateapp */ = {
+		0084505A277508800078DC7E /* foodDelivery */ = {
 			isa = PBXGroup;
 			children = (
 				0084505B277508800078DC7E /* AppDelegate.swift */,
-				0084505D277508800078DC7E /* SceneDelegate.swift */,
-				0084505F277508800078DC7E /* ViewController.swift */,
-				00845061277508800078DC7E /* Main.storyboard */,
 				00845064277508810078DC7E /* Assets.xcassets */,
 				00845066277508810078DC7E /* LaunchScreen.storyboard */,
 				00845069277508810078DC7E /* Info.plist */,
+				001A0BB1278C340A0053A171 /* Resources */,
+				001A0BCB278C53EA0053A171 /* BottomBar */,
+				001A0BC3278C42100053A171 /* MenuPage */,
 			);
-			path = vibrateapp;
+			path = foodDelivery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00845057277508800078DC7E /* vibrateapp */ = {
+		00845057277508800078DC7E /* foodDelivery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0084506C277508810078DC7E /* Build configuration list for PBXNativeTarget "vibrateapp" */;
+			buildConfigurationList = 0084506C277508810078DC7E /* Build configuration list for PBXNativeTarget "foodDelivery" */;
 			buildPhases = (
 				00845054277508800078DC7E /* Sources */,
 				00845055277508800078DC7E /* Frameworks */,
@@ -82,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = vibrateapp;
+			name = foodDelivery;
 			productName = vibrateapp;
-			productReference = 00845058277508800078DC7E /* vibrateapp.app */;
+			productReference = 00845058277508800078DC7E /* foodDelivery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00845053277508800078DC7E /* Build configuration list for PBXProject "vibrateapp" */;
+			buildConfigurationList = 00845053277508800078DC7E /* Build configuration list for PBXProject "foodDelivery" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00845057277508800078DC7E /* vibrateapp */,
+				00845057277508800078DC7E /* foodDelivery */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +207,6 @@
 			files = (
 				00845068277508810078DC7E /* LaunchScreen.storyboard in Resources */,
 				00845065277508810078DC7E /* Assets.xcassets in Resources */,
-				00845063277508800078DC7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00845060277508800078DC7E /* ViewController.swift in Sources */,
+				001A0BB4278C341B0053A171 /* AppTheme.swift in Sources */,
+				001A0BBB278C3E7D0053A171 /* SFUIDisplay.swift in Sources */,
+				001A0BC8278C53520053A171 /* MenuModel.swift in Sources */,
+				00845060277508800078DC7E /* MenuViewController.swift in Sources */,
+				001A0BCD278C66980053A171 /* CategoryCollectionViewCell.swift in Sources */,
+				001A0BCA278C53E60053A171 /* TabBarController.swift in Sources */,
+				001A0BB8278C39340053A171 /* AppAssets.swift in Sources */,
+				00468D9D278EF4E0009F1303 /* FoodTableViewCell.swift in Sources */,
+				001A0BC6278C43250053A171 /* BannersCollectionViewCell.swift in Sources */,
 				0084505C277508800078DC7E /* AppDelegate.swift in Sources */,
-				0084505E277508800078DC7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00845061277508800078DC7E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00845062277508800078DC7E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00845066277508810078DC7E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,10 +369,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFDPPVHUUQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vibrateapp/Info.plist;
+				INFOPLIST_FILE = foodDelivery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodDelivery;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gruzdev.vibrateapp;
+				PRODUCT_BUNDLE_IDENTIFIER = gruzdev.foodDelivery.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,10 +398,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CFDPPVHUUQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = vibrateapp/Info.plist;
+				INFOPLIST_FILE = foodDelivery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = foodDelivery;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gruzdev.vibrateapp;
+				PRODUCT_BUNDLE_IDENTIFIER = gruzdev.foodDelivery.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00845053277508800078DC7E /* Build configuration list for PBXProject "vibrateapp" */ = {
+		00845053277508800078DC7E /* Build configuration list for PBXProject "foodDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0084506A277508810078DC7E /* Debug */,
@@ -350,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0084506C277508810078DC7E /* Build configuration list for PBXNativeTarget "vibrateapp" */ = {
+		0084506C277508810078DC7E /* Build configuration list for PBXNativeTarget "foodDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0084506D277508810078DC7E /* Debug */,
